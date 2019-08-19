@@ -1,0 +1,8 @@
+Nome e Cognome: 
+Data di Nascita: 
+Nazionalità: 
+Abito a: 
+Segni Particolari: 
+Codice Fiscale: 
+Gruppo Sanguigno: 
+Altro: 
