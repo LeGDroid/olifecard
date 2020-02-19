@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Editor</title>
+		<link rel="stylesheet" href="src/main/bootstrap.min.css">
+	</head>
+	<body>
+		<div class="container">
+			<div class="row">
+				<div class="col-3">
+					<form>
+						<div class="form-group">
+							<label for="exampleFormControlFile1">Choose File</label>
+							<input type="file" class="form-control-file" id="fileLoader">
+						</div>
+					</form>
+				</div>
+				<div class="col-6">
+					<div id="editor">
+						<div id="name">No File</div>
+						<br />
+						<textarea textarea class="form-control rounded-0" rows="10" id="myText"></textarea>
+					</div>
+				</div>
+				<div class="col-3"><div class="row"><input type="button" class="btn btn-primary btn-block" id="save" value="Save" onclick="saveFile();"></div></div>
+			</div>
+		</div>
+		<script type="text/javascript" src="src/main/editor.js"></script>
+	</body>
+</html>
