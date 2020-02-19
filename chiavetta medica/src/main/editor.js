@@ -1,8 +1,12 @@
 document.getElementById("fileLoader").onchange = function() {
 	var file = document.getElementById("fileLoader").files[0];
 	var filename = file.name;
-	var pathfile = file.path;
-	document.getElementById("name").innerHTML = filename;
+	var x = location.pathname;
+	var y = x.replace("editor.html","");
+	var z = y + filename;
+	var h = z.replace("%20"," ");
+	var l = h.substring(1);
+	document.getElementById("dir").innerHTML ="<b>Save File in this directory:</b><br>" + l;
 	var fileReader = new FileReader();
 	fileReader.onload = function(e) {
 		var text = e.target.result;
