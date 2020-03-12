@@ -1,0 +1,8 @@
+Nombre y apellido:
+Fecha de nacimiento:
+nacionalidad:
+Yo vivo en:
+Marcas distintivas:
+Código de impuestos:
+Grupo sanguíneo:
+Màs sobre mi:
